@@ -1,0 +1,451 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/icomoon.eot?raxfuq");
+  src: url("../fonts/icomoon.eot?raxfuq#iefix") format("embedded-opentype"),
+    url("../fonts/icomoon.ttf?raxfuq") format("truetype"),
+    url("../fonts/icomoon.woff?raxfuq") format("woff"),
+    url("../fonts/icomoon.svg?raxfuq#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+.body_title {
+  height: 466px;
+  border-bottom: 1px solid #c81623;
+  border-right: 1px solid #c81623;
+}
+.body_title .all_list {
+  float: left;
+  background-color: #c81623;
+  width: 208px;
+}
+.body_title .all_list ul li {
+  height: 31px;
+  width: 208px;
+  line-height: 31px;
+  padding-left: 12px;
+  font-size: 14px;
+  color: #f1d3d4;
+}
+.body_title .all_list ul li::after {
+  float: right;
+  font-family: "icomoon";
+
+  content: "\e902";
+  margin-right: 10px;
+}
+.body_title .all_list ul li a {
+  color: #f1d3d4;
+}
+.body_title .all_list ul li:hover,
+.body_title .all_list ul li:hover a {
+  background-color: #f7f7f7;
+  color: #c81623;
+}
+.divImg {
+  float: left;
+  width: 741px;
+  height: 465px;
+  padding-top: 10px;
+  padding-left: 10.5px;
+}
+.body_aside {
+  float: left;
+  width: 250px;
+  height: 465px;
+  padding-top: 10px;
+  background-color: #ffffff;
+}
+.body_aside .body_aside_title {
+  height: 165px;
+  width: 250px;
+  font-size: 12px;
+  border: 1px solid #e4e4e4;
+}
+.body_aside .body_aside_title ul li:nth-child(1) {
+  height: 33px;
+  line-height: 33px;
+  border-bottom: 1px dotted #e4e4e4;
+}
+.body_aside .body_aside_title ul li:nth-child(1) a::after {
+  content: "\e902";
+  font-family: "icomoon";
+  margin: 0 15px 0 8px;
+}
+.body_aside .body_aside_title ul li:nth-child(1) a {
+  float: right;
+}
+.body_aside .body_aside_title ul li {
+  padding-left: 15px;
+  height: 25px;
+  line-height: 25px;
+}
+.body_aside .body_aside_title ul li a {
+  color: #666666;
+  white-space: nowrap;
+}
+.body_aside .body_aside_title ul li a strong {
+  margin-right: 5px;
+}
+.body_aside_list {
+  float: left;
+  width: 250px;
+  height: 210px;
+  border: 1px solid #e4e4e4;
+  border-top: 0px;
+  border-right: 0px;
+  margin-bottom: 5px;
+}
+.body_aside_list ul li a {
+  float: left;
+  width: 62.25px;
+  height: 70px;
+  background-color: #ffffff;
+  border-right: 1px solid #e4e4e4;
+  border-bottom: 1px solid #e4e4e4;
+}
+.body_aside_list ul li a div {
+  height: 50px;
+  font-family: "icomoon";
+  line-height: 50px;
+  text-align: center;
+  color: #c81623;
+}
+.body_aside_list ul li a span {
+  display: block;
+  font-size: 12px;
+  text-align: center;
+  color: #666666;
+}
+.recommend {
+  height: 163px;
+  margin-top: 10px;
+  background-color: #ebebeb;
+}
+.recommend .recommend_left a {
+  float: left;
+  height: 163px;
+}
+.recommend .recommend_right ul li {
+  float: left;
+}
+.recommend .recommend_right ul li:last-child img {
+  width: 248px;
+  height: 163px;
+}
+.guestLike {
+  height: 60px;
+  background-color: #ffffff;
+}
+.guestLike p:first-child {
+  float: left;
+  font-size: 18px;
+  padding-top: 25px;
+  color: #333333;
+}
+
+.guestLike a {
+  float: right;
+  font-size: 12px;
+  color: #666666;
+  padding-top: 30px;
+}
+.guestLike a::after {
+  font-family: "icomoon";
+  content: "";
+  padding-right: 20px;
+  padding-left: 8px;
+}
+.guestLike_content {
+  height: 230px;
+  background-color: #ffffff;
+  border: 1px solid #ededed;
+}
+.guestLike_content ul li {
+  float: left;
+  text-align: center;
+  width: 199.65px;
+  height: 230px;
+}
+.guestLike_content ul li div {
+  height: 160px;
+  padding-top: 20px;
+}
+.guestLike_content ul li p {
+  font-size: 12px;
+  margin-top: 3px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.guestLike_content ul li p:last-child {
+  color: #df3033;
+  font-size: 16px;
+}
+.funny {
+  height: 407px;
+  border: 1px solid #ededed;
+  background-color: #666666;
+}
+.funny .funny1 {
+  float: left;
+  height: 405px;
+  width: 403px;
+  background-color: #b8bddd;
+}
+.funny .funny1 .funny1_p {
+  height: 113px;
+  padding-top: 25px;
+  padding-left: 23px;
+  font-size: 18px;
+  color: #3b468d;
+}
+
+.funny .funny1 .funny1_img img {
+  float: right;
+  margin-right: 53px;
+  margin-bottom: 30px;
+}
+.funny .funny2,
+.funny .funny3 {
+  float: left;
+  width: 228px;
+  height: 405px;
+  text-align: center;
+  background-color: #fff;
+}
+.funny .funny2 p,
+.funny .funny3 p {
+  display: inline-block;
+  width: 80%;
+  border-bottom: 1px dashed #ededed;
+  font-size: 12px;
+  font-weight: 600;
+  color: #333333;
+  height: 38px;
+  line-height: 38px;
+}
+.funny .funny2 .good1 {
+  padding: 30px 0px 11px;
+}
+.funny .funny2 .good2 {
+  border-top: 1px solid #ededed;
+  padding-top: 12px;
+}
+.funny .funny3 {
+  float: left;
+  width: 405px;
+  height: 405px;
+  background-color: #f7f7f7;
+}
+.funny .funny3 .good3 {
+  padding: 30px 0px 12px;
+}
+.funny .funny3 .good4 {
+  float: left;
+  border-top: 1px solid #ededed;
+  border-right: 1px solid #ededed;
+  padding-top: 20px;
+  padding-left: 12px;
+}
+.funny .funny3 .good5 {
+  float: left;
+  border-top: 1px solid #ededed;
+  padding-top: 17px;
+  padding-left: 15px;
+}
+.funny .funny4 ul li {
+  float: left;
+  width: 81px;
+  height: 58px;
+  background-color: #ffffff;
+}
+.funny .funny4 ul li a {
+  position: relative;
+  display: inline-block;
+  width: 81px;
+  height: 58px;
+}
+.funny .funny4 ul li a img {
+  /* 由于很难把这些图标切的大小完全一样，且垂直对齐，而img是行内块元素，因此使用子绝父相，用上top、transform来实现垂直居中
+以实现各个图标在水平方向对齐 */
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.electric {
+  height: 60px;
+  background-color: #ffffff;
+  border-bottom: 2px solid #c81623;
+}
+.electric p {
+  float: left;
+  font-size: 18px;
+  padding-top: 25px;
+}
+.electric ul {
+  margin-left: 490px;
+}
+.electric ul li {
+  float: left;
+  margin-top: 35px;
+  font-size: 12px;
+  padding-left: 15px;
+}
+.electric ul li a {
+  color: #666666;
+}
+.electric_detail {
+  height: 360px;
+}
+.electric_detail .detail1 {
+  float: left;
+  width: 210px;
+  height: 360px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+.electric_detail .detail1 ul {
+  height: 98px;
+}
+.electric_detail .detail1 ul li {
+  float: left;
+  width: 85px;
+  height: 33px;
+  border-bottom: 1px solid #ededed;
+  margin-left: 13px;
+  line-height: 33px;
+  text-align: center;
+}
+.electric_detail .detail1 ul li a {
+  color: #666666;
+  font-size: 12px;
+}
+.electric_detail .detail1 .detail_h {
+  height: 80px;
+  color: #c81623;
+  text-align: center;
+  padding-top: 25px;
+}
+.electric_detail .detail1 .detail_h h1 {
+  font-size: 18px;
+}
+.electric_detail .detail1 .detail_h h3 {
+  font-size: 12px;
+}
+.electric_detail .detail1 a img {
+  padding-bottom: 37px;
+}
+.electric_detail .detail2 {
+  float: left;
+}
+.electric_detail .detail2 a {
+  position: relative;
+  display: inline-block;
+  width: 328px;
+  height: 360px;
+  background-color: #aed6d8;
+  color: #6aa3ab;
+}
+
+.electric_detail .detail2 a p:first-child {
+  font-size: 18px;
+  margin-top: 38px;
+  padding-left: 30px;
+}
+.electric_detail .detail2 a p:nth-child(2) {
+  font-size: 16px;
+  padding-left: 30px;
+}
+.electric_detail .detail2 a img {
+  position: absolute;
+  top: 110px;
+  left: 52px;
+}
+
+.electric_detail .detail3 {
+  float: left;
+  height: 360px;
+  width: 220px;
+  background-color: #ffffff;
+  border-right: 1px solid #ededed;
+}
+.electric_detail .detail3 a {
+  position: relative;
+  display: inline-block;
+  height: 180px;
+  width: 220px;
+  border-bottom: 1px solid #ededed;
+}
+.electric_detail .detail3 a p:first-child {
+  margin-top: 25px;
+  margin-left: 18px;
+  font-size: 16px;
+  color: #000;
+  z-index: 1;
+}
+.electric_detail .detail3 .a {
+  background: url(../uploads/ele07.png) no-repeat;
+  background-position: 95px 30px;
+}
+.electric_detail .detail3 a p:nth-child(2) {
+  margin-left: 18px;
+  font-size: 14px;
+  z-index: 10;
+  color: #c81623;
+}
+.electric_detail .detail3 a img {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+
+.electric_detail .detail4 {
+  position: relative;
+  float: left;
+  width: 222px;
+  height: 360px;
+  background-color: #ffffff;
+  text-align: center;
+  border-right: 1px solid #ededed;
+  border-bottom: 1px solid #ededed;
+}
+.electric_detail .detail4 a {
+  display: inline-block;
+  width: 220px;
+  height: 360px;
+}
+.electric_detail .detail4 a p:first-child {
+  margin-top: 75px;
+  font-size: 18px;
+  color: #000;
+}
+.electric_detail .detail4 a p:nth-child(2) {
+  font-size: 16px;
+  color: #b0b0b0;
+}
+.electric_detail .detail4 a img {
+  position: absolute;
+  top: 195px;
+  left: 23px;
+}
+.phone {
+  height: 85px;
+  background-color: #ffffff;
+}
+.phone ul li {
+  float: left;
+  height: 65px;
+  width: 120px;
+  background-color: #f7f7f7;
+  margin: 20px 0 0px;
+}
+.phone ul li a img {
+  width: 120px;
+  height: 40px;
+  margin-top: 12.5px;
+  border-right: 1px dashed #cccccc;
+}
+.phone ul li:last-child a img {
+  border-right: 0px;
+}
