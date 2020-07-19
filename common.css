@@ -1,0 +1,250 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+input,
+button {
+  outline: none;
+  border: 0px;
+}
+p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.font_color {
+  color: #c81623;
+}
+/* 版心 */
+.typeArea {
+  width: 1200px;
+  margin: 0px auto;
+}
+
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/icomoon.eot?raxfuq");
+  src: url("../fonts/icomoon.eot?raxfuq#iefix") format("embedded-opentype"),
+    url("../fonts/icomoon.ttf?raxfuq") format("truetype"),
+    url("../fonts/icomoon.woff?raxfuq") format("woff"),
+    url("../fonts/icomoon.svg?raxfuq#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+header {
+  border-bottom: 1px solid #b1191a;
+}
+.header {
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px;
+  background-color: #f1f1f1;
+}
+.header .hLeft {
+  float: left;
+}
+
+.header .hLeft ul li {
+  float: left;
+  margin-right: 12px;
+}
+.header .hRight {
+  float: right;
+}
+.header .hRight ul li {
+  color: #666666;
+  float: left;
+  padding-right: 15px;
+}
+
+.header .hRight ul li .more::after {
+  font-family: "icomoon";
+  content: "";
+  padding-left: 8px;
+}
+/* 导航栏 */
+.nav {
+  height: 105px;
+  background-color: #ffffff;
+  /* background-color: #ffffff; */
+}
+.nav > a {
+  float: left;
+  width: 210px;
+  margin: 25px 0px 15px;
+}
+.nav .nav_middle {
+  float: left;
+  height: 105px;
+  width: 790px;
+  padding-left: 135px;
+  padding-right: 110px;
+}
+.nav .nav_middle .search {
+  width: 536px;
+  height: 36px;
+  margin-top: 25px;
+  border: 2px solid #b1191a;
+  font-size: 16px;
+}
+.nav .nav_middle .search input {
+  width: 455px;
+  height: 32px;
+  padding-left: 10px;
+}
+.nav .nav_middle .search button {
+  width: 77px;
+  height: 32px;
+  background-color: #b1191a;
+}
+.nav .nav_middle .search ul {
+  padding: 8px 10px;
+}
+.nav .nav_middle .search ul li {
+  float: left;
+  padding-right: 25px;
+  font-size: 12px;
+  color: #666;
+}
+.nav .shopCar {
+  float: left;
+  position: relative;
+  width: 140px;
+  height: 36px;
+  line-height: 36px;
+  margin-top: 25px;
+  background-color: #f7f7f7;
+  font-size: 12px;
+  text-align: center;
+}
+.nav .shopCar::before {
+  font-family: "icomoon";
+  content: "";
+  padding-right: 6px;
+  color: #da5555;
+}
+.nav .shopCar::after {
+  font-family: "icomoon";
+  content: "";
+  padding-left: 15px;
+  padding-top: 12px;
+  font-size: 16px;
+  color: #c0bebe;
+}
+.nav .shopCar .num {
+  position: absolute;
+  left: 105px;
+  top: -4px;
+  height: 15px;
+  padding: 0 5px;
+  line-height: 15px;
+  border-radius: 7px 7px 7px 0px;
+  background-color: #e60012;
+  color: #fff;
+}
+
+.shop_list {
+  height: 45px;
+  background-color: #ffffff;
+}
+.shop_list .all {
+  float: left;
+  height: 45px;
+  width: 208px;
+  background-color: #b1191a;
+  line-height: 40px;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+}
+
+.shop_list ul li {
+  float: left;
+  line-height: 45px;
+  margin-right: 48px;
+  font-size: 16px;
+}
+.shop_list ul li:nth-child(1) {
+  margin-left: 40px;
+}
+.footer {
+  margin-top: 10px;
+  height: 416px;
+  background-color: #f5f5f5;
+}
+.footer .footer_1 {
+  border-bottom: 1px solid #ededed;
+}
+.footer .footer_1 ul li {
+  padding-left: 36px;
+  padding-top: 30px;
+  float: left;
+  height: 123px;
+  width: 228px;
+}
+.footer .footer_1 ul::after {
+  content: "";
+  display: block;
+  height: 0px;
+  visibility: hidden;
+  clear: both;
+}
+.footer .footer_1 ul li div {
+  float: left;
+  text-align: center;
+  padding-top: 10px;
+  margin-right: 8px;
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  background-color: #c81623;
+}
+.footer .footer_1 ul li strong {
+  margin-top: 3px;
+  font-size: 14px;
+}
+.footer .footer_1 ul li p {
+  margin-top: 3px;
+  font-size: 12px;
+}
+.footer .footer_2 {
+  height: 191px;
+  border-bottom: 1px solid #ededed;
+}
+.footer .footer_2 dl {
+  float: left;
+  width: 195px;
+
+  background-color: #f5f5f5;
+}
+.footer .footer_2 dl:nth-child(5) {
+  width: 185px;
+}
+.footer .footer_2 dl dt {
+  text-align: center;
+  background-color: #f5f5f5;
+  font-size: 16px;
+  height: 50px;
+  line-height: 50px;
+}
+.footer .footer_2 dl dd {
+  font-size: 12px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+}
+.footer .footer_3 p {
+  text-align: center;
+  margin-top: 18px;
+  font-size: 12px;
+  color: 666666;
+}
